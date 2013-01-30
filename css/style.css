@@ -1,0 +1,151 @@
+/* Override Bootstrap =====> */
+body {
+  background: url(../img/bg.png) repeat left top;
+}
+
+.navbar .brand {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.table-users {
+  margin-top: 25px;
+}
+
+.table-bordered th {
+  background: #ddd;
+}
+
+.table-bordered th.control,
+.table-bordered td.control {
+  text-align: center;
+}
+
+.help-block-stand-alone {
+  margin-top: 10px;
+}
+
+.modal {
+  margin-left: -490px;
+  width: 980px;
+}
+
+.radio.inline {
+  white-space: nowrap;
+}
+/* <===== Override Bootstrap */
+
+header,
+footer {
+  width: 100%;
+}
+
+footer {
+  background: url(../img/bg-footer.png) repeat left top;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3) inset;
+  color: #fffdf2;
+  height: 100%;
+  text-align: center;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+#primary {
+  min-height: 600px;
+}
+
+#primary,
+#secondary {
+  background: #f6f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+#primary h2 {
+  border-bottom: 1px solid #ededed;
+  font-size: 20px;
+}
+
+#primary h2 i {
+  margin-top: 4px;
+}
+
+#primary hr {
+  margin: 50px 15px;
+}
+
+.form-in-primary {
+  margin-top: 35px;
+}
+
+#secondary h2 {
+  background: url(../img/bg-title.png) no-repeat left top;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+  color: #fffdf2;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.primary-inner {
+  margin: 0 13px 20px 13px;
+}
+
+.secondary-content {
+  margin: -10px 0 30px 0;
+}
+
+.secondary-content ul {
+  margin: 0 8px;
+}
+
+.footer-inner {
+  margin: 0px auto;
+  padding-top: 12px;
+  width: 980px;
+}
+
+.page-top {
+  margin: 0 auto -20px auto;
+  position: relative;
+  text-align: right;
+  top: -1px;
+  width: 920px;
+}
+
+#container-wrapper {
+  margin: 0 20px 50px 20px;
+}
+
+.form-signin {
+  max-width: 350px;
+  padding: 19px 29px 29px;
+  margin: 60px auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+.btn-in-h2 {
+  position: relative;
+  top: 4px;
+}
+
+.controls-non-input {
+  margin-top: 5px;
+}
